@@ -40,7 +40,7 @@ class NoteController {
             if(err){
                 res.status(500).json(err)
             } else {
-                res.status(201).json({message:"Successfully added a new note"})
+                res.status(201).json({doc})
             }
         })
     }
